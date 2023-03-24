@@ -1,10 +1,13 @@
 # Rocks segmentation with U-Net
 This model is supposed to segmentate rocks in images made via flying drone. Since [dice score](https://en.wikipedia.org/wiki/S%C3%B8rensen%E2%80%93Dice_coefficient) is around 0.90 I can assure you that this model is pretty bad. 
 My results you can see here down below
+Original images:
 ![Original images](img/16_orig.png)
+True masks
 ![True masks](img/16_true.png)
+Predicted masks
 ![Predicted masks](img/16_pred.png)
-But if you want to try it on your own follow this instructions:
+If you want to try it on your own follow this instructions:
 
 **Clone this repo**
 ```
